@@ -1,0 +1,6 @@
+{
+  "name": "Dyson Drift - Relaxing Cosmic Flight",
+  "description": "A serene open-world flight exploration through and around a colossal Dyson sphere. Fly your personal starship, discover hidden gems, and greet residents living in orbital sky-cities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

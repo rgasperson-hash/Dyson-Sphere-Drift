@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF7CD" />
+      <stop offset="40%" stop-color="#FBBF24" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="ringGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="90%" stop-color="#38BDF8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#030712"/>
+  
+  <!-- Outer Dyson Rings -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#0ea5e9" stroke-width="1.5" stroke-dasharray="7 3" opacity="0.85"/>
+  <ellipse cx="32" cy="32" rx="27" ry="12" fill="none" stroke="#38bdf8" stroke-width="1.5" transform="rotate(-25 32 32)" opacity="0.9"/>
+  <ellipse cx="32" cy="32" rx="27" ry="12" fill="none" stroke="#22d3ee" stroke-width="1.2" transform="rotate(45 32 32)" opacity="0.75"/>
+  
+  <!-- Central Star -->
+  <circle cx="32" cy="32" r="16" fill="url(#starGlow)"/>
+  <circle cx="32" cy="32" r="6" fill="#FFFBEB"/>
+  
+  <!-- Mini spaceship silhouette -->
+  <g transform="translate(42, 40) rotate(-40) scale(0.7)">
+    <path d="M 0 -12 L 5 4 L 0 1 L -5 4 Z" fill="#E0F2FE" stroke="#38BDF8" stroke-width="1"/>
+    <!-- Engine glow -->
+    <circle cx="0" cy="5" r="3" fill="#F59E0B"/>
+    <circle cx="0" cy="7" r="1.5" fill="#EF4444"/>
+  </g>
+</svg>
